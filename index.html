@@ -1,1 +1,25 @@
-Hello World
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/styles/stylesheet.css" rel="stylesheet">
+	<script defer src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script defer src="/src/index.js"></script>
+</head>
+<body class="bg-slate-900 text-slate-50">
+	<div class="grid grid-cols-1 grid-rows-6 min-h-screen justify-items-center content-center text-center">
+		<div class="row-span-3 self-end duration-300 w-8/12" id="title-container">
+			<p class="self-end font-thin text-4xl">
+				I love you because
+			</p>
+			<hr class="my-3 opacity-25 blur-[1px]">
+		</div>
+		<div class="row-span-3 w-8/12 duration-500" id="quote-container">
+			<p class="hidden text-4xl md:text-6xl" id="quote">
+				You are you
+			</p>
+		</div>
+	</div>
+</body>
+</html>
